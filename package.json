@@ -1,6 +1,6 @@
 {
   "name": "mixin-venuee",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mixin VenueE to publish a node package to npmjs.com",
   "main": "src/mixin.ts",
   "scripts": {},
