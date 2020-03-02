@@ -1,6 +1,6 @@
 {
   "name": "mixin-venuee",
-  "version": "1.0.3",
+  "version": "1.0.20",
   "description": "Mixin VenueE to publish a node package to npmjs.com",
   "main": "src/mixin.ts",
   "scripts": {},
@@ -21,6 +21,25 @@
   "devDependencies": {},
   "dependencies": {
     "@types/styled-components": "^5.0.1",
+    "@next/bundle-analyzer": "8.1.0",
+		"@sentry/browser": "5.6.3",
+		"@sentry/node": "5.6.2",
+		"@types/axios": "0.14.0",
+		"@types/compression": "0.0.36",
+		"@types/express": "4.17.1",
+		"@types/next": "8.0.6",
+		"@types/next-seo": "1.10.0",
+		"@types/node": "12.0.12",
+		"@types/nprogress": "0.2.0",
+		"@types/react": "16.8.25",
+		"@types/react-dom": "16.8.5",
+		"@types/react-facebook-login": "4.1.0",
+		"@types/react-scroll": "1.5.4",
+		"@types/react-select": "3.0.4",
+		"@types/react-truncate": "2.3.3",
+		"@types/url-parse": "^1.4.3",
+		"@zeit/next-css": "1.0.1",
+		"@zeit/next-sass": "1.0.1",
     "styled-components": "^5.0.1"
   }
 }

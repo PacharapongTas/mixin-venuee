@@ -2,27 +2,27 @@
 /* eslint-disable no-shadow */
 import { css } from 'styled-components'
 
-export const screen: any = {
-	xs: 767,
-	sm: 991,
-	md: 1199,
-}
+// const screen: any = {
+// 	xs: 767,
+// 	sm: 991,
+// 	md: 1199,
+// }
 
-export const media = Object.keys(screen).reduce((m: any, size) => {
-	m[size] = (...args: any) => css`
-		@media (max-width: ${screen[size]}px) {
-			${(css as any)(...args)};
-		}
-	`
+// const media = Object.keys(screen).reduce((m: any, size) => {
+// 	m[size] = (...args: any) => css`
+// 		@media (max-width: ${screen[size]}px) {
+// 			${(css as any)(...args)};
+// 		}
+// 	`
 
-	return m
-}, {})
+// 	return m
+// }, {})
 
-export const grid = {
+const grid = {
 	gutterWidth: 16,
 }
 
-export const colors = {
+const colors = {
 	black: '#1d1d1d',
 	white: '#ffffff',
 	blueVenuee: '#1b75bb',
@@ -65,7 +65,7 @@ export const colors = {
 	venueePrime: '#1B75BB',
 }
 
-export const fontWeight = {
+const fontWeight = {
 	bold3: 700,
 	bold2: 600,
 	bold1: 500,
@@ -76,7 +76,7 @@ export const fontWeight = {
 	light4: 100,
 }
 
-export const fontSizes = {
+const fontSizes = {
 	large5: '40px',
 	large4: '28px',
 	large3: '24px',
@@ -88,7 +88,7 @@ export const fontSizes = {
 	small3: '8px',
 }
 
-export const lineHeight = {
+const lineHeight = {
 	large5: '44px',
 	large4: '40px',
 	large3: '36px',
@@ -100,48 +100,48 @@ export const lineHeight = {
 	small3: '14px',
 }
 
-export const textLarge5 = css`
+const textLarge5 = css`
 	font-size: ${fontSizes.large5};
 	line-height: ${lineHeight.large5};
 `
-export const textLarge4 = css`
+const textLarge4 = css`
 	font-size: ${fontSizes.large4};
 	line-height: ${lineHeight.large4};
 `
-export const textLarge3 = css`
+const textLarge3 = css`
 	font-size: ${fontSizes.large3};
 	line-height: ${lineHeight.large3};
 `
-export const textLarge2 = css`
+const textLarge2 = css`
 	font-size: ${fontSizes.large2};
 	line-height: ${lineHeight.large2};
 `
-export const textLarge1 = css`
+const textLarge1 = css`
 	font-size: ${fontSizes.large1};
 	line-height: ${lineHeight.large1};
 `
 
-export const textNormal = css`
+const textNormal = css`
 	font-size: ${fontSizes.normal};
 	line-height: ${lineHeight.normal};
 `
 
-export const textSmall1 = css`
+const textSmall1 = css`
 	font-size: ${fontSizes.small1};
 	line-height: ${lineHeight.small1};
 `
 
-export const textSmall2 = css`
+const textSmall2 = css`
 	font-size: ${fontSizes.small2};
 	line-height: ${lineHeight.small2};
 `
 
-export const textSmall3 = css`
+const textSmall3 = css`
 	font-size: ${fontSizes.small3};
 	line-height: ${lineHeight.small3};
 `
 
-export const spaces = {
+const spaces = {
 	large5: `${grid.gutterWidth * 4}px`,
 	large4: `${grid.gutterWidth * 3}px`,
 	large3: `${grid.gutterWidth * 2}px`,
@@ -153,35 +153,35 @@ export const spaces = {
 	small3: '1px',
 }
 
-export const fontFamilies = {
+const fontFamilies = {
 	default: 'Thonburi',
 }
 
-export const fontStyle = css`
+const fontStyle = css`
 	font-style: normal;
 	font-stretch: normal;
 	letter-spacing: -0.1px;
 `
 
-export const wrapText = css`
+const wrapText = css`
 	word-break: break-all;
 	word-break: break-word;
 `
 
-export const ellipsisText = css`
+const ellipsisText = css`
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 `
 
-export const counter = css`
+const counter = css`
 	${fontStyle} font-family: ${fontFamilies.default};
 	font-size: ${fontSizes.small2};
 	text-align: right;
 	color: ${colors.gray4};
 `
 
-export const clearFix = css`
+const clearFix = css`
 	&:after {
 		content: '';
 		clear: both;
@@ -189,7 +189,7 @@ export const clearFix = css`
 	}
 `
 
-export const zIndex = {
+const zIndex = {
 	alert: 1052,
 	overlayLoader: 1051,
 	overlay: 5,
@@ -199,12 +199,12 @@ export const zIndex = {
 	local: 1,
 }
 
-export const overflowScroll = css`
+const overflowScroll = css`
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 `
 
-export default {
+export {
 	colors,
 	fontSizes,
 	lineHeight,
@@ -218,7 +218,7 @@ export default {
 	textSmall2,
 	textSmall3,
 	spaces,
-	media,
+	// media,
 	ellipsisText,
 	clearFix,
 	zIndex,
