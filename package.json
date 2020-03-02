@@ -1,0 +1,25 @@
+{
+  "name": "mixin-venuee",
+  "version": "1.0.1",
+  "description": "Mixin VenueE to publish a node package to npmjs.com",
+  "main": "src/mixin.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PacharapongTas/mixin-venuee.git"
+  },
+  "keywords": [
+    "npm",
+    "Mixin VenueE"
+  ],
+  "author": "YmtO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PacharapongTas/mixin-venuee/issuess"
+  },
+  "homepage": "https://github.com/PacharapongTas/mixin-venuee/blob/master/README.md",
+  "devDependencies": {},
+  "dependencies": {
+    "styled-components": "^5.0.1"
+  }
+}
