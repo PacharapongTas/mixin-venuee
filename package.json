@@ -1,6 +1,6 @@
 {
   "name": "mixin-venuee",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mixin VenueE to publish a node package to npmjs.com",
   "main": "src/mixin.ts",
   "scripts": {},
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/PacharapongTas/mixin-venuee/blob/master/README.md",
   "devDependencies": {},
   "dependencies": {
+    "@types/styled-components": "^5.0.1",
     "styled-components": "^5.0.1"
   }
 }
