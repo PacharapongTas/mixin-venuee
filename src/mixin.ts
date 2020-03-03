@@ -16,7 +16,7 @@ import { css } from 'styled-components'
 // 	`
 
 // 	return m
-// }, {})
+// }, {})s
 
 const grid = {
 	gutterWidth: 16,
